@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="container">
+       
+        <div class="form-container sign-in-container">
+            <form action="#" method="POST">
+                <h1>Sign In</h1>
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <button class="btn" type="submit">Sign In</button>
+                <p>Not registered? <button id="registerBtn" class="btn2" type="button">Register</button></p>
+            </form>
+        </div>
+
+       
+        <div class="form-container register-container">
+            <form action="#" method="POST">
+                <h1>Create Account</h1>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <button class="btn" type="submit">Register</button>
+                <p>Already registered? <button id="signInBtn" class="btn2" type="button">Sign In</button></p>
+            </form>
+        </div>
+
+        
+        <div class="overlay-left"></div>
+        <div class="overlay-right"></div>
+    </div>
+
+      <script src="index.js"></script>
+</body>
+</html>
